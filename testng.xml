@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Adviser Logic Suit" verbose="2">
+
+    <listeners>
+        <listener class-name="com.adviserlogic.automation.common.listeners.Reporting"/>
+    </listeners>
+
+    <test name="Sample Test">
+        <classes>
+            <class name="com.adviserlogic.automation.test.TestRunner"/>
+        </classes>
+    </test>
+</suite>
